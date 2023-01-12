@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed&display=swap');
+
+html {
+    height: 100%;
+}
+
+
+body {
+    background-image: linear-gradient(45deg, rgb(142,116,195),rgb(81,116,182));
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+hr {
+    align-self: center;
+    width: 80%;
+    background-color:  rgba(116, 92, 201, 0.5);
+    border: none;
+    height: 1px;
+}
+
+
+.deze {
+    display: flex;
+    align-items: center;
+    width: 700px;
+    margin: auto;
+}
+
+.box {
+    background: rgb(123,144,197);
+    flex-direction: row;
+    margin: 20px;
+    width: 200px;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 27px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+p {
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+
+ul {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.big {
+    font-size: 40px;
+    color: black;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border: none;
+    background: yellow;
+    margin: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background: rgba(255, 255, 0, 0.649);
+}
+
+.cat {
+    padding-left: 52px;
+    padding-right: 52px;
+    
+}
+
+.dog {
+    padding-left: 40px;
+    padding-right: 40px;
+}
