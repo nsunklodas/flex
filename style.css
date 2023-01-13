@@ -101,3 +101,13 @@ button:hover {
     padding-left: 40px;
     padding-right: 40px;
 }
+
+@media screen and (max-width: 600px) {
+    .deze {
+        display: block;
+    }
+
+    .box {
+        margin: auto;
+    }
+}
